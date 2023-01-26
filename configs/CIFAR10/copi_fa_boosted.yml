@@ -1,0 +1,25 @@
+adam: false
+batch_size: 50
+credit_algo: fa
+learning_rule: copi
+loss_multiplier: 1000
+lr: 0.001
+bio_decorr: False
+net_structure:
+- 3072
+- 1000
+- 1000
+- 1000
+- 1000
+- 10
+outpath: ./results/CIFAR10/copi_fa_boosted/
+performances:
+  test:
+    acc: []
+    loss: []
+  train:
+    acc: []
+    loss: []
+seed: 42
+update_R: true
+update_W: true

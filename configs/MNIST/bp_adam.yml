@@ -1,0 +1,29 @@
+adam: true
+batch_size: 50
+beta_1: 0.9
+beta_2: 0.999
+credit_algo: bp
+epsilon: 1.0e-08
+learning_rule: bp
+loss_multiplier: 1
+lr: 0.0001
+net_structure:
+- 784
+- 500
+- 500
+- 500
+- 500
+- 500
+- 500
+- 10
+outpath: ./results/MNIST/bp_adam/
+performances:
+  test:
+    acc: []
+    loss: []
+  train:
+    acc: []
+    loss: []
+seed: 42
+update_R: false
+update_W: true

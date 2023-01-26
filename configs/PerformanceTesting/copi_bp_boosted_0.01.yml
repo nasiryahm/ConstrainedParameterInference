@@ -1,0 +1,24 @@
+adam: false
+batch_size: 50
+credit_algo: bp
+learning_rule: copi
+loss_multiplier: 10
+lr: 0.001
+net_structure:
+- 3072
+- 1000
+- 1000
+- 1000
+- 1000
+- 10
+outpath: ./results/PerformanceTesting_C/copi_bp_boosted_0.01/
+performances:
+  test:
+    acc: []
+    loss: []
+  train:
+    acc: []
+    loss: []
+seed: 42
+update_R: true
+update_W: true
